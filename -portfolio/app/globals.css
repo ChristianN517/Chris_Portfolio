@@ -6,20 +6,30 @@
 
 html,
 body {
+  font-family: var(--font-inter), sans-serif;
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  font-family: system-ui, sans-serif;
 }
 
 .home-container {
-  width: 100vw;
-  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b
+  );
+}
+
+.section {
+  min-height: 100vh;          /* full screen height */
+  display: flex;
+  justify-content: center;    /* horizontal center */
+  align-items: center;        /* vertical center */
+  padding: 0 10vw;
   position: relative;
-  background: #0f172a; /* dark blue */
 }
 
 .title {
+  font-family: var(--font-poiret), sans-serif;
   position: absolute;
   top: 5%;
   width: 100%;
