@@ -35,7 +35,15 @@ export default function Home() {
     <main className="home-container">
 
       <Section index={0}>
+        <div className="top">
         <h1 className="title">Christian Nielsen</h1>
+
+         <img
+      src="/IMG_2768.jpg"
+      alt="Headshot"
+      className="top-headshot"
+    />
+        </div>
       </Section>
 
         <Section index={1}>
@@ -56,8 +64,8 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section index={1}>
-        <h2>Projects</h2>
+      <Section index={2}>
+        <h2 className="proj_title">Projects</h2>
 
   <div className="projects">
 
@@ -80,27 +88,40 @@ export default function Home() {
       <p>Integrated CAD Application.</p>
 
       <div className="project-links">
-        <a href="https://project-two.vercel.app" target="_blank">Live Demo</a>
-        <a href="https://github.com/yourusername/project2" target="_blank">Code</a>
+        <a href="https://rbrick.vercel.app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/ChristianN517/CPSC-581-Group-Project-2" target="_blank">Code</a>
+      </div>
+    </div>
+
+     <div className="project-card">
+      <img src="/project3.png" alt="Project 3" />
+
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio website to show off work.</p>
+
+      <div className="project-links">
+        <a href="https://chris-portfolio-psi-one.vercel.app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/ChristianN517/Chris_Portfolio" target="_blank">Code</a>
       </div>
     </div>
 
   </div>
 </Section>
 
-      <Section index={2}>
+      <Section index={3}>
         <h2>About</h2>
 
         <div className="about">
-          <img src="/profile.jpg" className="profile-photo"/>
           <p>
-            Computer Science student at the University of Calgary focused on
-            clean architecture, UX design, and scalable backend systems.
+            I am a 4th Year Computer Science student at the University of Calgary who likes to work on all kinds of projects
+            with a particular interest in large scale data analysis and visualization. I have a strong design philosopy centered around ease of use and clean
+            aesthetics. This portfolio is an attempt to display this philosophy and show my work so far. 
+            Please contact me if you have any questions or want to work together!
           </p>
         </div>
       </Section>
 
-      <Section index={3}>
+      <Section index={4}>
   <h2>Contact</h2>
 
   <div className="contact-icons">

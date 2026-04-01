@@ -29,15 +29,39 @@ body {
   align-items: center;        /* vertical center */
   padding: 0 10vw;
   position: relative;
+  color: #e5e7eb;
 }
 
-.title {
-  font-family: var(--font-poiret), sans-serif;
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1.5rem;
+}
+
+.top-headshot {
+  width: 170px;
+  height: 170px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+
+.intro {
   width: 100%;
-  text-align: center;
-  font-size: 3rem;
-  color: #e5e7eb;
-  margin-bottom: 2rem;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.about {
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 .contact-icons {
@@ -59,6 +83,11 @@ body {
 .contact-icons img:hover {
   transform: scale(1.2);
   filter: brightness(1.2);
+}
+
+.proj_title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .project-card {
@@ -103,6 +132,11 @@ body {
   transform: translateY(-2px);
 }
 
+.about {
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+}
 @keyframes riseIn {
   from {
     opacity: 0;
