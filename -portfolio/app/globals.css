@@ -61,6 +61,48 @@ body {
   filter: brightness(1.2);
 }
 
+.project-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.project-card img {
+    width: 140px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-links a {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+
+  text-decoration: none;
+  color: white;
+  background: rgba(255,255,255,0.1);
+
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.project-links a:hover {
+  background: rgba(255,255,255,0.2);
+  transform: translateY(-2px);
+}
+
 @keyframes riseIn {
   from {
     opacity: 0;

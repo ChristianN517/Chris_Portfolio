@@ -59,22 +59,34 @@ export default function Home() {
       <Section index={1}>
         <h2>Projects</h2>
 
-        <div className="projects">
-          <div className="project-card">
-            <img src="/project1.png" />
-            <h3>Streaming Stick UI</h3>
-            <p>React + Three.js interface for children's learning platform.</p>
-            <button>View Project</button>
-          </div>
+  <div className="projects">
 
-          <div className="project-card">
-            <img src="/project2.png" />
-            <h3>Portfolio Website</h3>
-            <p>Animated Next.js portfolio with scroll-based transitions.</p>
-            <button>View Code</button>
-          </div>
-        </div>
-      </Section>
+    <div className="project-card">
+      <img src="/project1.png" alt="Project 1" />
+
+      <h3>Family of Buttons Project</h3>
+      <p>Interactive React + Three.js interface.</p>
+
+      <div className="project-links">
+        <a href="https://cpsc-button-project.vercel.app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/graceeilori/button-project" target="_blank">Code</a>
+      </div>
+    </div>
+
+    <div className="project-card">
+      <img src="/project2.png" alt="Project 2" />
+
+      <h3>CAD Learning Platform</h3>
+      <p>Integrated CAD Application.</p>
+
+      <div className="project-links">
+        <a href="https://project-two.vercel.app" target="_blank">Live Demo</a>
+        <a href="https://github.com/yourusername/project2" target="_blank">Code</a>
+      </div>
+    </div>
+
+  </div>
+</Section>
 
       <Section index={2}>
         <h2>About</h2>
