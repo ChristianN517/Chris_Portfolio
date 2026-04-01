@@ -39,7 +39,7 @@ export default function Home() {
         <h1 className="title">Christian Nielsen</h1>
 
          <img
-      src="/IMG_2768.jpg"
+      src="/headshot.jpg"
       alt="Headshot"
       className="top-headshot"
     />
