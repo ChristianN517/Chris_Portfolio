@@ -50,7 +50,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, ease: "easeOut" }}
-        viewport={{ once: true, amount: 0.35 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <div className="intro2">
           <h2>Progress Showcase</h2>
