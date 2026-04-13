@@ -48,18 +48,18 @@ export default function Home() {
 
         <Section index={1}>
         <div className="intro">
-          <h2>Introduction</h2>
+          <h2>Design Philosophy</h2>
 
           <p>
-            This is where you can describe yourself, your interests, and what
-            kind of work you focus on. Replace this text with anything you
-            want—your technical focus, goals, or background.
-          </p>
+            Throughout the course of CPSC 581, I have explored many aspects of design through
+            the activities and projects offered in class. These have left me with a more clear idea of my
+            design philosphy. In my opinion, simplicity is hard to beat, and I have done my best to follow 
+            this principle in my projects, whilst also ensuring that things are visually appealing. During the course, I
+            developed a preference for more catchy coulours and fonts, as well as motion graphics, and while this may not show 
+            as much in my earlier projects, I have ensured that this is reflected in this portfolio. Less buttons, a single page, catchy colors, 
+            and motion graphics are all design choices I have made in this portfolio to reflect my design philosophy, and I hope you enjoy
+            exploring how I have implemented these principles in my projects as well!
 
-          <p>
-            For example, you might talk about your Computer Science studies,
-            your interest in UX design, or the projects you're currently
-            building.
           </p>
         </div>
       </Section>
@@ -85,7 +85,7 @@ export default function Home() {
       <img src="/project2.png" alt="Project 2" />
 
       <h3>CAD Learning Platform</h3>
-      <p>Integrated CAD Application.</p>
+      <p>Integrated CAD Learning Application</p>
 
       <div className="project-links">
         <a href="https://rbrick.vercel.app/" target="_blank">Live Demo</a>
@@ -97,7 +97,7 @@ export default function Home() {
       <img src="/project3.png" alt="Project 3" />
 
       <h3>Portfolio Website</h3>
-      <p>Personal portfolio website to show off work.</p>
+      <p>Personal portfolio website showing my work</p>
 
       <div className="project-links">
         <a href="https://chris-portfolio-psi-one.vercel.app/" target="_blank">Live Demo</a>
@@ -114,8 +114,8 @@ export default function Home() {
         <div className="about">
           <p>
             I am a 4th Year Computer Science student at the University of Calgary who likes to work on all kinds of projects
-            with a particular interest in large scale data analysis and visualization. I have a strong design philosopy centered around ease of use and clean
-            aesthetics. This portfolio is an attempt to display this philosophy and show my work so far. 
+            with a particular interest in large scale data analysis and visualization. I have a strong design philosopy centered around ease of use and 
+            simplicity. This portfolio is an attempt to display this philosophy and show my work so far. 
             Please contact me if you have any questions or want to work together!
           </p>
         </div>
