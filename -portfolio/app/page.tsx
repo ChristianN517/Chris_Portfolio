@@ -76,12 +76,19 @@ export default function Home() {
 
             <div className="progress-item">
               <img src="/image2.png" alt="Progress 3" />
-              <p>I added animations and improved overall visual appeal.</p>
+              <p>I was more limited in creativity with the second project, but I started trying to make
+                things look as sleek as I could while keeping things easy to navigate and use.
+                I got a better hold on spacing and layout, but still left something to be desired in terms of
+                visual appeal.</p>
             </div>
 
             <div className="progress-item">
-              <img src="/image3.png" alt="Progress 4" />
-              <p>This portfolio reflects my final design style and approach.</p>
+              <p>The final showcase of my progress in design is this portfolio. I ensured
+                that I applied the design principles I valued most, and kept changing things I didn't like
+                such as the background, the direction of the layout, and the fonts among other things until I was satisfied.
+                The full finished project referenced above can as well be accessed in full below to see how 
+                my approach to design has changed whilst progressing throguh this class. Please Enjoy!
+              </p>
             </div>
 
           </div>
