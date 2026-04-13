@@ -63,7 +63,11 @@ export default function Home() {
               <p>My early designs for this portfolio
                 were more complex and less user friendly,
                 and made use of various visual elements which I would strongly
-                oppose now .</p>
+                oppose now. I had a preference for adding more, even if it wasn't necessary,
+                which is quite clear in these early drafts, and is something that I have now shaken off,
+                being very minimalistic in my additions past what I think is essential to the functioning
+                of the application.
+                </p>
             </div>
 
             <div className="progress-item">
